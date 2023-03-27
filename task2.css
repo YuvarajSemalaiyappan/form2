@@ -1,83 +1,50 @@
-h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
-  }
-  
+.totaldiv{
+  border: 1px solid black;
+  width: 50%;
 
-  h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
-  }
-  
+}
 
-  label {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
+.text{
+  text-align: center;
+}
 
-  .field {
-    padding: 5px;
-    font-size: 18px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 10px;
-    width: 100%;
-  }
-  
+.div22{
+  display: flex;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 30px;
 
-  .div22 {
-    display: flex;
-    justify-content: space-between;
-  }
-  
+}
+#input{
+  display: table;
+}
+p{
+  display: table-row;
 
-  .flex-container {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  .item {
-    width: 200px;
-    height: 200px;
-    background-color: #ccc;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 24px;
-  }
-  .flex-container {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  .item {
-    width: 200px;
-    height: 200px;
-    background-color: #ccc;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 24px;
-  }
-    
-  
+}
 
-  .totaldiv {
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
-  }
-  
+label{
+display: table-cell;
+text-align: right;
+padding-left: 50px;
+}
 
-  .count {
-    font-size: 22px;
-    font-weight: bold;
-  }
-  
+.class{
+  display: table-cell;
+  padding-left: 40px;
+}
+
+.div{
+  font-size: large;
+  font-weight: bold;
+}
+
+#image{
+  border: 1px solid black;
+}
+
+.button{
+  text-align: end;
+  padding-bottom: 20px;
+  padding-right: 100px;
+}
